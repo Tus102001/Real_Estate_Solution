@@ -26,6 +26,7 @@ This project was developed by **Tushar Chaudhary** as part of the **Business Int
 - Streamlit 🌐
 - Logging
 - Git & GitHub
+- 
 📦 RealEstatePricePrediction
 │
 ├── app.py # Main Streamlit app file
@@ -37,5 +38,9 @@ This project was developed by **Tushar Chaudhary** as part of the **Business Int
 └── README.md # Project overview and setup
 ---
 
-## 📂 Project Structure
 
+## 🛠️ Run the app
+bash
+Copy
+Edit
+streamlit run app.py
