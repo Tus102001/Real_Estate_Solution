@@ -1,21 +1,41 @@
-# Real Estate Price Prediction App
+# 🏡 Real Estate Price Prediction App
 
-This Streamlit app predicts house prices using a linear regression model.
+A Streamlit web application that predicts real estate property prices based on user-provided features such as number of bedrooms, bathrooms, lot size, year built, and more. This app uses a Linear Regression model trained on a historical dataset.
 
-## How to Run
+## 📌 Project Overview
 
-1. Clone the repo
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the app:
-   ```
-   streamlit run app.py
-   ```
+This project was developed by **Tushar Chaudhary** as part of the **Business Intelligence and System Infrastructure** coursework at **Algonquin College**. The main objective is to modularize and deploy machine learning code using Streamlit Cloud.
 
-## Features
+---
 
-- Upload your dataset (`final.csv`)
-- Train model interactively
-- See model metrics: MSE, R² Score
+## 🚀 Features
+
+- Predict real estate property prices instantly
+- User-friendly and interactive interface built with Streamlit
+- Modular and maintainable Python codebase
+- Logging and error handling implemented
+- Deployed on Streamlit Cloud (link provided below)
+
+---
+
+## 🛠️ Tech Stack
+
+- Python 🐍
+- Pandas & NumPy
+- Scikit-learn (Linear Regression)
+- Streamlit 🌐
+- Logging
+- Git & GitHub
+📦 RealEstatePricePrediction
+│
+├── app.py # Main Streamlit app file
+├── data/
+│ └── final.csv # Cleaned dataset for training
+├── logs/
+│ └── app.log # App log file
+├── requirements.txt # Python dependencies
+└── README.md # Project overview and setup
+---
+
+## 📂 Project Structure
+
